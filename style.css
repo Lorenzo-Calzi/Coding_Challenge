@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.background{
+  height: 100vh;
+  background-image: url('background.jpg');
+  background-size: cover;
+  padding-top: 30px;
+}
+
+.contenitore{
+  width: 70%;
+  height: 90%;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  border-radius: 20px;
+}
+
+.intestazione{
+  padding-top: 60px;
+}
+
+.intestazione .logo{
+  width: 200px;
+  margin: auto;
+}
+
+.intestazione .logo img{
+  width:100%;
+}
+
+.intestazione .titolo{
+  font-size: 14px;
+  text-align: center;
+  color: lime;
+  margin-bottom: 5px;
+}
+
+.button{
+  width: 80%;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  background-color: lime;
+  border-radius: 2px;
+  line-height: 2.2;
+  margin-bottom: 15px;
+}
+
+.button .primo{
+  display: inline-block;
+}
+
+.button .secondo{
+  display: inline-block;
+}
+
+.button .terzo{
+  display: inline-block;
+}
+
+.blocchi{
+  width: 80%;
+  margin: auto;
+}
+
+.blocchi .testo{
+  color: lightgray;
+  margin-bottom: 4px;
+}
+
+.blocchi .testo span{
+  color: white;
+  font-size: 20px;
+}
+
+.blocchi .first .linea{
+  width: 300px;
+  height: 30px;
+  background-color: BlueViolet;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.blocchi .second .linea{
+  width: 500px;
+  height: 30px;
+  background-color: lightblue;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.blocchi .third .linea{
+  width: 150px;
+  height: 30px;
+  background-color: Crimson;
+  border-radius: 5px;
+}
